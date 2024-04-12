@@ -57,5 +57,61 @@ header, footer {
         background-color: var(--color1);
 }
 
-.embed-container { position: relative;
-        padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.video-main {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+}
+/* О курсе */
+
+/* Текст */
+
+.wormhom h5 {
+        padding: 50px;
+        border: 3px solid var(--color1);
+}
+
+/* Цвета */
+.color1 {
+        color: var(--color1);
+}
+
+.color2 {
+        color: var(--color2);
+}
+
+.bg1 {
+        color: var(--color1);
+}
+
+.bg2 {
+        color: var(--color2);
+}
+
+.about {
+        background-color: #eee;
+}
+
+.about i {
+        font-size: 25px;
+        color: var(--color2);
+}
+
+.itd_circle {
+        margin: 0 auto 15px;
+        width: 70px;
+        height: 70px;
+        border: 3px solid var(--color2);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.line {
+        width: 100px;
+        height: 3px;
+        background-color: var(--color1);
+        margin: 15px auto 30px;
+}
+
